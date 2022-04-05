@@ -5,13 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 
 <body>
-    <h1 id="img1">JQUERY!</h1>
-    <button onclick="func1()">FADE</button>
+    <h1 onclick="$(this).hide();">JQUERY!</h1>
+    <script type="text/javascript" src="js/jquery.js" ></script>
 </body>
-<script src="JQuery/jquery.js" type="text/javascript"></script>
-<script src="JQ.js" type="text/javascript"></script>
-
 </html>
